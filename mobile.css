@@ -5,6 +5,9 @@
     font-family: sans-serif;
 }
 
+main{
+    width: 100%;
+}
 /* uper section --start-- */
 .uperRight{
     line-height: none;
@@ -13,22 +16,42 @@ table{
     font-size: 8px;
     float: right;
     padding: 10px 20px 10px 15px;
+    background-color: rgb(255 255 255 / 75%);
     display: block;
 }
 table tbody tr td{
     font-size: 12px;
 }
 table tbody tr:nth-child(2) > td:nth-child(3){
-    font-size: 12px;
+    font-size: 18px;
+    color: #862B0D;
+    
 }
 table tbody tr > td:nth-child(1){
     padding-right: 5px;
+}
+table tbody tr:nth-child(1) > td{
+    font-size: 17px !important;
+}
+table tbody tr:nth-child(2) > td:nth-child(1){
+    font-weight: 500;
+    font-size: 20px;
 }
 /* uper section --end-- */
 
 /* social-link section --start-- */
 .activeOn{
     background-color: rgb(29, 29, 29);
+}
+
+.activeOn sup{
+    margin-left: -5px;
+    margin-top: -5px;
+    font-size: 10px;
+}
+.activeOn sup i{
+    border: 1px solid rgb(107, 103, 103);
+    border-radius: 50%;
 }
 #container{
     width: 92%;
@@ -49,12 +72,12 @@ table tbody tr > td:nth-child(1){
     table{
         display: flex;
         width: 100%;
-        margin-right: 5px;
+        margin-right: 10px;
         /* margin: 20px; */
     }
     table tbody tr td{
-        font-size: 11px;
-        font-weight: 600;
+        font-size: 15px;
+        font-weight: 500;
     }
     table tbody tr:nth-child(1) > td{
         font-family: 'Atma', cursive;
