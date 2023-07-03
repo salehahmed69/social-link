@@ -66,6 +66,10 @@ table tbody tr:nth-child(2) > td:nth-child(1){
 #socialLink #container div a i:hover{
     font-size: 50px;
 }
+
+footer div h3{
+    font-size: 11px;
+}
 /* social-link section --end-- */
 
 @media only screen and (max-width: 460px) {

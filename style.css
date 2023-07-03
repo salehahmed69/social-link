@@ -283,8 +283,20 @@ table tbody tr > td:nth-child(3){
         } */
 
 /* social link grid section -- end-- */
+footer{
 
-
+}
+footer div{
+    padding: 10px;
+    background-color: #000;
+}
+footer div h3{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 500;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
 
 @media screen and (max-width: 360px) {
     
