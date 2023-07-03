@@ -5,6 +5,26 @@
     font-family: sans-serif;
 }
 
+/* uper section --start-- */
+.uperRight{
+    line-height: none;
+}
+table{
+    font-size: 8px;
+    float: right;
+    padding: 10px 20px 10px 15px;
+    display: block;
+}
+table tbody tr td{
+    font-size: 12px;
+}
+table tbody tr:nth-child(2) > td:nth-child(3){
+    font-size: 12px;
+}
+table tbody tr > td:nth-child(1){
+    padding-right: 5px;
+}
+/* uper section --end-- */
 
 /* social-link section --start-- */
 .activeOn{
@@ -15,7 +35,7 @@
     grid-template-rows: repeat(5, 50px);
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)) ;
     gap: 50px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 #socialLink #container div a i {
     font-size: 50px;
@@ -24,3 +44,50 @@
     font-size: 50px;
 }
 /* social-link section --end-- */
+
+@media only screen and (max-width: 460px) {
+    table{
+        display: flex;
+        width: 100%;
+        margin-right: 5px;
+        /* margin: 20px; */
+    }
+    table tbody tr td{
+        font-size: 11px;
+        font-weight: 600;
+    }
+    table tbody tr:nth-child(1) > td{
+        font-family: 'Atma', cursive;
+        font-size: 12px;
+        font-weight:600;
+    }
+    .picture{
+        width: 100px;
+        height: 120px;
+    }
+    .detailsBtn{
+        display: flex;
+        padding: 2px 16px;
+        background-color: black;
+        color: white;
+        outline: none;
+    }
+    section div a{
+        font-size: 15px;
+        margin-top: 2px;
+        font-weight: 400;
+    }
+    .fa-terminal{
+        margin-left: 5px;
+    }
+    .uper-left{
+        width: 35%;
+        margin-left: 5px;
+    }
+    .uperRight{
+        width: 75%;
+        line-height: 18px;
+        margin-left: 10px;
+        /* overflow: auto; */
+    }
+}

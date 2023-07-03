@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atma&family=Delicious+Handrawn&family=Patrick+Hand&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./images/fav-icon.avif" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" media="screen and (max-width: 480px)" href="./mobile.css">
@@ -14,6 +14,12 @@
     <script src="https://kit.fontawesome.com/b1904cf5cc.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- preloader section -- start -- -->
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+    <!-- preloader section -- end -- -->
+
     <!-- main section-start -->
    <main>
     <!-- uper section-start -->
@@ -111,7 +117,7 @@
             </div>
 
             <div class="div6">
-                <a href="#"><i class="fa-brands fa-square-pinterest" style="color: #d60040;"></i></a>
+                <a href="https://www.pinterest.com/salehahmed69/" target="_blank"><i class="fa-brands fa-square-pinterest" style="color: #d60040;"></i></a>
             </div>
 
             <div class="div7">
@@ -170,5 +176,13 @@
     <!-- social-link section-end -->
    </main>
     <!-- main section-end -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
 </body>
 </html>
