@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* social-link section --start-- */
+.activeOn{
+    background-color: rgb(29, 29, 29);
+}
+#container{
+    width: 92%;
+    grid-template-rows: repeat(5, 50px);
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)) ;
+    gap: 50px;
+    margin-top: 40px;
+}
+#socialLink #container div a i {
+    font-size: 50px;
+}
+#socialLink #container div a i:hover{
+    font-size: 50px;
+}
+/* social-link section --end-- */
