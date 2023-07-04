@@ -9,6 +9,9 @@ main{
     width: 100%;
 }
 /* uper section --start-- */
+section div abbr{
+    margin-top: 2px !important;
+}
 .uperRight{
     line-height: none;
 }

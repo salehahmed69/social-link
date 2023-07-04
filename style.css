@@ -105,7 +105,11 @@ img{
     height: 100%;
     
 }
-
+section div abbr{
+    display: inline;
+    text-decoration: none;
+    margin-top: 5px;
+}
 .detailsBtn{
     background-color: wheat;
     color: black;
