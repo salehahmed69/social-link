@@ -150,7 +150,7 @@ table tbody tr:nth-child(1) > td{
 table tbody tr > td:nth-child(3){
     padding-left: 5px;
 }
-/* social link grid section -- start-- */
+/* social link grid section -- start -- */
 .activeOn{
     top: 0;
     margin: 20px 0;
@@ -196,7 +196,6 @@ table tbody tr > td:nth-child(3){
 #socialLink #container div a i:hover{
     font-size: 100px;
 }
-
         /* .div1{}
         .div2{}
         .div3{}
@@ -213,8 +212,8 @@ table tbody tr > td:nth-child(3){
         .div14{}
         .div15{}
         .div16{} */
-
-/* social link grid section -- end-- */
+/* social link grid section -- end -- */
+/* footer section -- start -- */
 footer div{
     padding: 10px;
     background-color: #000;
@@ -226,6 +225,7 @@ footer div h3{
     word-spacing: 3px;
     letter-spacing: 1px;
 }
+/* footer section -- end -- */
 @media screen and (max-width: 1080px){
     .uper-left {
         width: 40%;
