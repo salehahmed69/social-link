@@ -1,7 +1,7 @@
 /* preloader section -- start -- */
 .loader_bg{
     top: 0;
-    left: 0;
+    /* left: 0; */
     position: fixed;
     z-index: 999999;
     background: #0a0a0aef;
@@ -14,8 +14,8 @@
     width: 150px;
     height: 150px;
     position: absolute;
-    top: calc(50vh - 75px);
-    left: calc(50vw - 75px);
+    top: calc(50vh - 100px);
+    left: calc(50vw - 100px);
 }
 .loader:before, .loader:after{
     content: '';
